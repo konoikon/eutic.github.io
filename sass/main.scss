@@ -7,6 +7,12 @@
 @import "base/typography";
 @import "base/utilities";
 
+@import "layout/navigation";
 @import "layout/header";
+@import "layout/footer";
+
+@import "components/vertical-bar";
 
 @import "pages/home";
+@import "pages/about";
+@import "pages/blog";

@@ -1,0 +1,115 @@
+.about-overview {
+  background-color: $color-primary;
+  padding: 5rem;
+  text-align: center;
+
+  &__activities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    &__title {
+      margin: 5rem 0;
+    }
+  }
+
+  &__activity {
+    margin-top: 2rem;
+    max-width: 48rem;
+
+    &__icon {
+      font-size: 5rem;
+    }
+
+    &__text-box {
+      &__title {
+        margin-bottom: 1rem;
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+.about-sectors {
+  background-color: $color-primary;
+  padding: 5rem;
+  text-align: center;
+  height: 90vh;
+  position: relative;
+
+  &__sectors-list {
+    margin-top: 7vh;
+    position: relative;
+
+    &__names {
+      width: 30vw;
+      text-transform: capitalize;
+    }
+
+    &__name {
+      width: 50%;
+      font-size: 2rem;
+      margin: 0 auto 3rem auto;
+      transition: all 0.2s;
+
+      h3 {
+        font-weight: 400;
+        font-size: 2rem;
+      }
+
+      &:hover {
+        color: $color-white;
+        background-color: $color-black;
+
+        .about-sectors__sectors-list__description {
+          color: $color-black;
+          display: block;
+        }
+      }
+    }
+
+    &__description {
+      display: none;
+      position: absolute;
+      transition: all 0.2s;
+      max-width: 150rem;
+      top: 50%;
+      left: 60%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &__cta {
+    text-align: center;
+  }
+}
+
+.about-committee {
+  h2 {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+  background-color: $color-primary;
+  padding: 5rem;
+
+  &__members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 4rem;
+  }
+
+  &__member {
+    height: 40rem;
+    width: 30rem;
+    background-color: $color-black;
+    color: $color-white;
+    text-align: center;
+
+    &__image {
+      height: 32rem;
+      width: 30rem;
+      object-fit: cover;
+    }
+  }
+}

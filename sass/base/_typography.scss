@@ -2,7 +2,20 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   line-height: 1.7;
+  font-size: $default-font-size;
 }
+
+// Navigation
+
+.navigation {
+  &__link {
+    text-decoration: none;
+    color: $color-white;
+    font-size: 1.8rem;
+  }
+}
+
+// Header
 
 .heading-primary {
   line-height: 6rem;
@@ -14,5 +27,69 @@ body {
 
   &--sub {
     font-size: 1.8rem;
+  }
+}
+
+.header {
+  &__icon {
+    font-size: 5rem;
+  }
+
+  &__statistic {
+    font-size: 1.8rem;
+  }
+}
+
+// Section
+
+.section-title {
+  font-size: 4.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.section-text {
+  margin: 2rem auto 0 auto;
+  max-width: 60vw;
+  text-transform: none;
+}
+
+.section-subtitle {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+
+// Logos
+
+.sector-logo {
+  height: 10rem;
+}
+
+// Icons
+
+.icon-large {
+  font-size: 20rem;
+  font-weight: 400;
+}
+
+// Buttons
+
+.button {
+  text-decoration: none;
+}
+
+.button-primary {
+  font-size: 2.5rem;
+  font-weight: 400;
+  background-color: transparent;
+  color: $color-black;
+  border: 1px solid $color-black;
+  padding: 2rem 3rem;
+  transition: all 0.4s;
+
+  &:hover {
+    background-color: $color-primary;
+    border: 1px solid $color-primary;
   }
 }

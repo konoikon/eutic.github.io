@@ -1,0 +1,96 @@
+.navigation {
+  background-color: $color-black;
+  height: 10vh;
+  overflow: hidden;
+
+  &__list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 10vh;
+
+    &--extension {
+      display: none;
+      z-index: 1;
+    }
+  }
+
+  &__item {
+    margin-left: 4rem;
+
+    // About sublist
+
+    &--about {
+      .navigation__list--extension--about {
+        position: absolute;
+        background-color: $color-black;
+        min-width: 20rem;
+        border-right: 2px solid $color-primary;
+        border-bottom: 2px solid $color-primary;
+        border-left: 2px solid $color-primary;
+        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+      }
+
+      &:hover {
+        .navigation__list--extension--about {
+          display: block;
+        }
+      }
+    }
+
+    // Events Sublist
+
+    &--events {
+      .navigation__list--extension--events {
+        position: absolute;
+        background-color: $color-black;
+        min-width: 20rem;
+        border-right: 2px solid $color-primary;
+        border-bottom: 2px solid $color-primary;
+        border-left: 2px solid $color-primary;
+        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+      }
+
+      &:hover {
+        .navigation__list--extension--events {
+          display: block;
+        }
+      }
+    }
+
+    // Investors Sublist
+
+    &--investors {
+      .navigation__list--extension--investors {
+        position: absolute;
+        background-color: $color-black;
+        min-width: 20rem;
+        border-right: 2px solid $color-primary;
+        border-bottom: 2px solid $color-primary;
+        border-left: 2px solid $color-primary;
+        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+      }
+
+      &:hover {
+        .navigation__list--extension--investors {
+          display: block;
+        }
+      }
+    }
+  }
+
+  &__sublist {
+    list-style: none;
+  }
+
+  &__link {
+    padding: 0.5rem;
+    transition: all 0.4s;
+
+    &:hover,
+    &:active {
+      background-color: $color-primary;
+      color: $color-black;
+    }
+  }
+}

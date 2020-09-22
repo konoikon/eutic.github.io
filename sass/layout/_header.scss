@@ -1,13 +1,24 @@
 .header {
-  height: 90vh;
+  height: 70vh;
   position: relative;
+  background-color: $color-primary;
 
   &__text-box {
     position: absolute;
-    top: 40%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 70vw;
     text-align: center;
+  }
+
+  &__statistics-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8rem;
+  }
+
+  &__statistic {
+    margin-top: 0.2rem;
   }
 }

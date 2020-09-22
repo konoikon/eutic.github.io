@@ -1,0 +1,9 @@
+.vertical-bar {
+  height: 50rem;
+  width: 1rem;
+  background-color: $color-black;
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}

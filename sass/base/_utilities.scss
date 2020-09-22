@@ -1,0 +1,14 @@
+.animation-delay {
+  &--0 {
+    animation-delay: 0.2s;
+  }
+  &--1 {
+    animation-delay: 0.4s;
+  }
+  &--2 {
+    animation-delay: 0.6s;
+  }
+  &--3 {
+    animation-delay: 0.8s;
+  }
+}
