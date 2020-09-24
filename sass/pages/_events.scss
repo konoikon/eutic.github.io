@@ -1,0 +1,21 @@
+.events-pitch {
+  &__text-box {
+    margin-bottom: 2.5rem;
+  }
+
+  &__images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 8rem;
+  }
+
+  &__image {
+    height: 40rem;
+    width: 50rem;
+    border: 5px solid $color-primary;
+    background-color: $color-black;
+    border-radius: 5px;
+    margin: 2.5rem 0;
+  }
+}
