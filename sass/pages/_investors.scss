@@ -1,0 +1,46 @@
+.investors-annual-report {
+  height: 90vh;
+  background-color: $color-primary;
+
+  &__report {
+    text-align: center;
+    font-size: 2rem;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.investors-partners {
+  height: 40vh;
+}
+
+.investors-partner-tiers {
+  height: 50vh;
+}
+
+.partner-tier-heading {
+  font-size: 4rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.partner-platinum {
+  background-color: $color-platinum;
+}
+
+.partner-gold {
+  background-color: $color-gold;
+  font-size: 3.5rem;
+}
+
+.partner-silver {
+  background-color: $color-silver;
+  font-size: 3rem;
+}
+
+.partner-bronze {
+  background-color: $color-bronze;
+  font-size: 2.5rem;
+}
