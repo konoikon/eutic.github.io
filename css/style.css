@@ -108,6 +108,9 @@ body {
     .navigation__list--extension {
       display: none;
       z-index: 1; }
+  .navigation__logo {
+    margin-bottom: -2rem;
+    width: 9vh; }
   .navigation__item {
     margin-left: 4rem; }
     .navigation__item--about .navigation__list--extension--about {
@@ -257,7 +260,14 @@ section {
 
 .section-sponsors {
   text-align: center;
-  height: 60vh; }
+  height: 45vh; }
+  .section-sponsors__sponsor-logos {
+    margin: 10rem 20rem 0 20rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+  .section-sponsors__sponsor-logo {
+    height: 10rem; }
 
 .about-overview {
   background-color: #ffcf00;
