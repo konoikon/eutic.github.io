@@ -13,11 +13,27 @@
 }
 
 .investors-partners {
-  height: 40vh;
+  &__text-box {
+    margin-bottom: 5rem;
+  }
+}
+
+.investors-partner-logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.investors-partner-logo {
+  margin: 5rem 0;
+  height: 18rem;
+
+  &--bronze {
+    height: 10rem;
+  }
 }
 
 .investors-partner-tiers {
-  height: 50vh;
+  height: 90vh;
 }
 
 .partner-tier-heading {
