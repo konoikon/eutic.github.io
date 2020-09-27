@@ -31,13 +31,12 @@ body {
   color: #fff;
   font-size: 1.8rem; }
 
-.heading-primary {
-  line-height: 6rem; }
-  .heading-primary--main {
-    font-size: 3.5rem;
-    letter-spacing: 0.1rem; }
-  .heading-primary--sub {
-    font-size: 1.8rem; }
+.heading-primary--main {
+  font-size: 3.5rem;
+  letter-spacing: 0.1rem; }
+
+.heading-primary--sub {
+  font-size: 1.8rem; }
 
 .header__icon {
   font-size: 5rem; }
@@ -166,9 +165,11 @@ body {
   .header__statistics-container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 8rem; }
   .header__statistic {
-    margin-top: 0.2rem; }
+    margin-top: 0.2rem;
+    margin-bottom: 2rem; }
 
 .footer {
   height: 10vh;
@@ -219,24 +220,23 @@ section {
     left: 50%;
     transform: translate(-50%, -50%); }
 
-.section-what-we-do {
-  height: 50vh; }
-  .section-what-we-do__text-box {
-    text-align: center; }
-  .section-what-we-do__action-box {
-    margin: 4rem auto 0 auto;
-    max-width: 90vw;
-    display: flex;
-    justify-content: space-around; }
-  .section-what-we-do__action {
-    width: 40%;
-    margin: 0 3rem;
-    transition: all 0.5s; }
-    .section-what-we-do__action:hover {
-      transform: scale(1.1); }
-    .section-what-we-do__action__title {
-      font-size: 2.4rem;
-      margin-bottom: 2rem; }
+.section-what-we-do__text-box {
+  text-align: center; }
+
+.section-what-we-do__action-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.section-what-we-do__action {
+  max-width: 48rem;
+  margin: 2rem 3rem;
+  transition: all 0.5s; }
+  .section-what-we-do__action:hover {
+    transform: scale(1.1); }
+  .section-what-we-do__action__title {
+    font-size: 2.4rem;
+    margin-bottom: 2rem; }
 
 .section-membership {
   height: 50vh;
@@ -385,11 +385,21 @@ section {
     left: 50%;
     transform: translate(-50%, -50%); }
 
-.investors-partners {
-  height: 40vh; }
+.investors-partners__text-box {
+  margin-bottom: 5rem; }
+
+.investors-partner-logos {
+  display: flex;
+  justify-content: space-around; }
+
+.investors-partner-logo {
+  margin: 5rem 0;
+  height: 18rem; }
+  .investors-partner-logo--bronze {
+    height: 10rem; }
 
 .investors-partner-tiers {
-  height: 50vh; }
+  height: 90vh; }
 
 .partner-tier-heading {
   font-size: 4rem;

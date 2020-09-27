@@ -24,22 +24,19 @@ section {
 }
 
 .section-what-we-do {
-  height: 50vh;
-
   &__text-box {
     text-align: center;
   }
 
   &__action-box {
-    margin: 4rem auto 0 auto;
-    max-width: 90vw;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
 
   &__action {
-    width: 40%;
-    margin: 0 3rem;
+    max-width: 48rem;
+    margin: 2rem 3rem;
     transition: all 0.5s;
 
     &:hover {

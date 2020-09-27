@@ -15,10 +15,12 @@
   &__statistics-container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 8rem;
   }
 
   &__statistic {
     margin-top: 0.2rem;
+    margin-bottom: 2rem;
   }
 }
