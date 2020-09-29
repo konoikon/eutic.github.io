@@ -97,19 +97,15 @@
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 4rem;
-  }
 
-  &__member {
-    height: 40rem;
-    width: 30rem;
-    background-color: $color-black;
-    color: $color-white;
-    text-align: center;
+    &__list {
+      list-style: none;
+    }
 
-    &__image {
-      height: 32rem;
-      width: 30rem;
-      object-fit: cover;
+    &__member {
+      &--name {
+        font-weight: 500;
+      }
     }
   }
 }

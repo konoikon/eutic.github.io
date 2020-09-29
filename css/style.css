@@ -336,16 +336,10 @@ section {
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 4rem; }
-  .about-committee__member {
-    height: 40rem;
-    width: 30rem;
-    background-color: #000;
-    color: #fff;
-    text-align: center; }
-    .about-committee__member__image {
-      height: 32rem;
-      width: 30rem;
-      object-fit: cover; }
+    .about-committee__members__list {
+      list-style: none; }
+    .about-committee__members__member--name {
+      font-weight: 500; }
 
 .blog-section {
   height: 90vh;
