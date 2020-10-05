@@ -172,7 +172,6 @@ body {
     margin-bottom: 2rem; }
 
 .footer {
-  height: 10vh;
   background-color: #000;
   color: #fff;
   text-align: center; }
@@ -290,7 +289,6 @@ section {
   background-color: #ffcf00;
   padding: 5rem;
   text-align: center;
-  height: 90vh;
   position: relative; }
   .about-sectors__sectors-list {
     margin-top: 7vh;
