@@ -17,5 +17,15 @@
     background-color: $color-black;
     border-radius: 5px;
     margin: 2.5rem 0;
+
+    &__img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
   }
+}
+
+.events-networking--fix {
+  height: 85vh;
 }
