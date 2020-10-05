@@ -60,6 +60,19 @@ body {
   margin-bottom: 3rem;
 }
 
+.section-link {
+  &:link,
+  &:visited {
+    text-decoration: underline;
+    color: $color-black;
+  }
+
+  &:hover,
+  &:active {
+    color: $color-primary;
+  }
+}
+
 // Logos
 
 .sector-logo {

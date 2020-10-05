@@ -61,6 +61,13 @@ body {
   text-transform: uppercase;
   margin-bottom: 3rem; }
 
+.section-link:link, .section-link:visited {
+  text-decoration: underline;
+  color: #000; }
+
+.section-link:hover, .section-link:active {
+  color: #ffcf00; }
+
 .sector-logo {
   height: 10rem; }
 
@@ -394,9 +401,6 @@ section {
   height: 18rem; }
   .investors-partner-logo--bronze {
     height: 10rem; }
-
-.investors-partner-tiers {
-  height: 90vh; }
 
 .partner-tier-heading {
   font-size: 4rem;
