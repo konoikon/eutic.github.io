@@ -43,6 +43,26 @@
       }
     }
 
+    // Reports sublist
+
+    &--reports {
+      .navigation__list--extension--reports {
+        position: absolute;
+        background-color: $color-black;
+        min-width: 20rem;
+        border-right: 2px solid $color-primary;
+        border-bottom: 2px solid $color-primary;
+        border-left: 2px solid $color-primary;
+        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+      }
+
+      &:hover {
+        .navigation__list--extension--reports {
+          display: block;
+        }
+      }
+    }
+
     // Events Sublist
 
     &--events {

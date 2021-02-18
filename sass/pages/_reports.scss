@@ -1,0 +1,35 @@
+.reports {
+    height: 80vh;
+    background-color: $color-primary;
+
+    &__text-box {
+      margin-bottom: 2.5rem;
+    }
+
+    &__report-box {
+        text-align: center;
+        margin-top: 15rem;
+    }
+
+    &__report-list{
+        &__item {
+            margin-bottom: 4rem;
+            &__link {
+                &:link, &:visited {
+                    background-color: transparent;
+                    color: $color-black;
+                    text-decoration: none;
+                    padding: 5px 10px;
+                    transition: all .5s;
+                    border: 1.5px solid $color-black;
+                }
+
+                &:hover, &:active {
+                    background-color: $color-black;
+                    color: $color-white;
+                }
+
+            }
+        }
+    }
+  }
